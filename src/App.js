@@ -1,12 +1,10 @@
 import './App.css';
+import Home from './page/Home/Home';
 
 function App() {
   return (
-    <div className="App">
-      <p className="text-1xl font-bold ">
-        Hello world!
-        <button className="btn btn-active btn-accent">Button</button>
-      </p>
+    <div className="">
+      <Home></Home>
     </div>
   );
 }
